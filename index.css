@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 400px;
+  height: 220px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Concert One", cursive;
+  margin: auto;
+  padding: 16px;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+}
+
+input {
+  height: 34px;
+  border-radius: 6px;
+  border: none;
+  background-color: #eeeeee;
+  color: #a4a4a4;
+  text-align: center;
+}
+
+.todo {
+  width: 280px;
+  height: 40px;
+  background-color: #fbdf7c;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+#add,
+#delete {
+  height: 40px;
+  width: 34px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+#add {
+  background-color: #ffcc68;
+}
+
+#delete {
+  background-color: #ff9548;
+}
